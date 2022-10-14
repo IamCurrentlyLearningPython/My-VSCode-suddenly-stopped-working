@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "c:\Users\schul\Desktop\Python\bot.py", line 6, in <module>
+    import discord
+  File "C:\Users\schul\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\__init__.py", line 23, in <module>
+    from .client import *
+  File "C:\Users\schul\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\client.py", line 49, in <module>
+    from .user import User, ClientUser
+  File "C:\Users\schul\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\user.py", line 29, in <module>
+    import discord.abc
+  File "C:\Users\schul\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\abc.py", line 54, in <module>
+    from .permissions import PermissionOverwrite, Permissions
+  File "C:\Users\schul\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\permissions.py", line 28, in <module>    
+    from .flags import BaseFlags, flag_value, fill_with_flags, alias_flag_value
+  File "C:\Users\schul\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\flags.py", line 2, in <module>
+    from discord.ext import commands
+  File "C:\Users\schul\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\__init__.py", line 11, in <module>
+    from .bot import *
+  File "C:\Users\schul\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\ext\commands\bot.py", line 53, in <module>
+    from discord import app_commands
+  File "C:\Users\schul\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\app_commands\__init__.py", line 12, in <module>
+    from .commands import *
+  File "C:\Users\schul\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\app_commands\commands.py", line 52, in <module>
+    from .models import Choice
+  File "C:\Users\schul\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\app_commands\models.py", line 30, in <module>
+    from ..permissions import Permissions
+ImportError: cannot import name 'Permissions' from partially initialized module 'discord.permissions' (most likely due to a circular import) (C:\Users\schul\AppData\Local\Programs\Python\Python310\lib\site-packages\discord\permissions.py)
